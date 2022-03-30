@@ -1,0 +1,130 @@
+{
+    "library": [
+      {
+        "id": 1,
+        "title": "Bring Your Human to Work",
+        "author": "Erica Keswin",
+        "time": "13-min read",
+        "read": "1.9k reads",
+        "image": "http://127.0.0.1:8887/BringYourHumanToWork.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": false,
+          "isFeatured": false,
+          "justAdded": false
+        }
+      },
+      {
+        "id": 2,
+        "title": "Employee to Entrepreneur",
+        "author": "Steve Glaveski",
+        "time": "15-minute read",
+        "read": "1.9k reads",
+        "image": "http://127.0.0.1:8887/EmployeeToEntrepreneur.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": true,
+          "justAdded": false,
+          "isFeatured": false
+        }
+      },
+      {
+        "id": 3,
+        "title": "Doesn't Hurt to Ask",
+        "author": "Trey Gowdy",
+        "time": "13-minute read",
+        "read": "1.9k reads",
+        "image": "http://127.0.0.1:8887/DoesntHurtToAsk.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": false,
+          "justAdded": false,
+          "isFeatured": true
+        }
+      },
+      {
+        "id": 4,
+        "title": "The Fate of Food",
+        "author": "Amanda Little",
+        "time": "12-minute read",
+        "read": "16k reads",
+        "image": "http://127.0.0.1:8887/TheFateOfFood.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": true,
+          "justAdded": false,
+          "isFeatured": false
+        }
+      },
+      {
+        "id": 5,
+        "title": "Lives of the Stoics",
+        "author": "Ryan Holiday, Stephen Hansel",
+        "time": "13-minute read",
+        "read": "",
+        "image": "http://127.0.0.1:8887/LivesOfTheStoics.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": true,
+          "justAdded": false,
+          "isFeatured": false
+        }
+      },
+      {
+        "id": 6,
+        "title": "Loving Your Business",
+        "author": "Debbie King",
+        "time": "13-minute read",
+        "read": "",
+        "image": "http://127.0.0.1:8887/LovingYourBusiness.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": true,
+          "justAdded": false,
+          "isFeatured": false
+        }
+      },
+      {
+        "id": 7,
+        "title": "The Lonely Century",
+        "author": "Noreena Hertz",
+        "time": "15-minute read",
+        "read": "",
+        "image": "http://127.0.0.1:8887/TheLonelyCentury.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": false,
+          "justAdded": true,
+          "isFeatured": false
+        }
+      },
+      {
+        "id": 8,
+        "title": "Eat Better,Feel Better",
+        "author": "Giada De Laurentiis",
+        "time": "13-minute read",
+        "read": "1.9k reads",
+        "image": "http://127.0.0.1:8887/EatBettterFeelBetter.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": false,
+          "justAdded": true,
+          "isFeatured": false
+        }
+      },
+      {
+        "id": 9,
+        "title": "Dropshipping",
+        "author": "James Moore",
+        "time": "12-minute read",
+        "read": "",
+        "image": "http://127.0.0.1:8887/DropShipping.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": false,
+          "justAdded": true,
+          "isFeatured": false
+        }
+      }
+    ]
+  }
