@@ -4,6 +4,7 @@ import React from 'react';
 import LandingPage from './pages/LandingPage/LandingPage';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { Typography } from '@mui/material';
+import EntrepreneurPage from './pages/EntrepreneurPage/EntrepreneurPage';
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
      
       <Routes>
         <Route path="/" element={<LandingPage />} />
+
+        <Route path="/Entrepreneur" element={<EntrepreneurPage/>}/>
       </Routes>
 
     </Router>

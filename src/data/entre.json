@@ -1,0 +1,88 @@
+{
+    "entre": [
+      {
+        "id": 1,
+        "title": "Being Boss",
+        "author": "Erica Keswin",
+        "time": "13-min read",
+        "read": "1.9k reads",
+        "image": "http://127.0.0.1:8887/BeingBoss.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": false,
+          "isFeatured": false,
+          "justAdded": false
+        }
+      },
+      {
+        "id": 2,
+        "title": "Beyond Entrepreneurship",
+        "author": "Erica Keswin",
+        "time": "13-min read",
+        "read": "1.9k reads",
+        "image": "http://127.0.0.1:8887/Beyond.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": false,
+          "isFeatured": false,
+          "justAdded": false
+        }
+      },
+      {
+        "id": 3,
+        "title": "Employee to Entrepreneur",
+        "author": "Steve Glaveski",
+        "time": "15-minute read",
+        "read": "1.9k reads",
+        "image": "http://127.0.0.1:8887/EmployeeToEntrepreneur.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": true,
+          "justAdded": false,
+          "isFeatured": false
+        }
+      },
+      {
+        "id": 4,
+        "title": "The Fate of Food",
+        "author": "Amanda Little",
+        "time": "12-minute read",
+        "read": "16k reads",
+        "image": "http://127.0.0.1:8887/TheFateOfFood.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": true,
+          "justAdded": false,
+          "isFeatured": false
+        }
+      },
+      {
+        "id": 5,
+        "title": "Lives of the Stoics",
+        "author": "Ryan Holiday, Stephen Hansel",
+        "time": "13-minute read",
+        "read": "",
+        "image": "http://127.0.0.1:8887/LivesOfTheStoics.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": true,
+          "justAdded": false,
+          "isFeatured": false
+        }
+      },
+      {
+        "id": 6,
+        "title": "Loving Your Business",
+        "author": "Debbie King",
+        "time": "13-minute read",
+        "read": "",
+        "image": "http://127.0.0.1:8887/LovingYourBusiness.png",
+        "state": {
+          "isFinished": false,
+          "isTrending": true,
+          "justAdded": false,
+          "isFeatured": false
+        }
+      }
+    ]
+  }

@@ -45,7 +45,7 @@ const Reading=()=> {
   };
 
   return (
-    <Box sx={{ width: '1135px'}} style={{marginLeft:"19%"}}>
+    <Box sx={{ width: '915px'}} style={{marginLeft:"23%"}}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Currently reading" {...a11yProps(0)}/>

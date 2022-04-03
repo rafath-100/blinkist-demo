@@ -34,7 +34,7 @@ const SearchBar = () => {
   return (
     <>
       <Container sx={{ position: "relative", top: "60px" }}>
-        <Box sx={{ margin: "0 auto", width: "912px" }}>
+        <Box sx={{ margin: "0 80px", width: "912px" }}>
           <SearchStyle>
             <ImageStyled>
               <img src={Vector} alt="" width="19px" height="19px" />
