@@ -1,27 +1,7 @@
-// import React, { ReactNode } from 'react'
-// import Typography, { TypographyProps } from '@mui/material/Typography';
 
-// export interface ItypographyProps extends TypographyProps {
-//   children:ReactNode;
-  
-// }
+import Typography, { TypographyProps } from "@mui/material/Typography";
 
-// export const Typog=({children, ...props}:ItypographyProps ) =>{
-//   return (
-//     <div>
-//         <Typography        
-//         color="textSecondary"     
-//         gutterBottom
-//       >
-//         {children}
-//       </Typography>
-//     </div>
-//   )
-// }
-
-import Typography from "@mui/material/Typography";
-
-export interface ItypographyProps {
+export interface ItypographyProps extends TypographyProps{
   children: string;
   variant:
     | "h1"
@@ -41,7 +21,7 @@ export interface ItypographyProps {
   className?: string;
   onClick?: () => void;
   color?:string;
-  textSize?:string;
+  size?:string;
 }
 
 const Typog = (props: ItypographyProps) => {
@@ -53,7 +33,7 @@ const Typog = (props: ItypographyProps) => {
         onClick={props.onClick}
         color={props.color}
         
-        //textSize={props.textSize}
+        //size={props.size}
       >
         {props.children}
       </Typography>

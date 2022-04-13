@@ -1,130 +1,234 @@
 {
-    "library": [
-      {
-        "id": 1,
-        "title": "Bring Your Human to Work",
-        "author": "Erica Keswin",
-        "time": "13-min read",
-        "read": "1.9k reads",
-        "image": "http://127.0.0.1:8887/BringYourHumanToWork.png",
-        "state": {
-          "isFinished": false,
-          "isTrending": false,
-          "isFeatured": false,
-          "justAdded": false
-        }
-      },
-      {
-        "id": 2,
-        "title": "Employee to Entrepreneur",
-        "author": "Steve Glaveski",
-        "time": "15-minute read",
-        "read": "1.9k reads",
-        "image": "http://127.0.0.1:8887/EmployeeToEntrepreneur.png",
-        "state": {
-          "isFinished": false,
-          "isTrending": true,
-          "justAdded": false,
-          "isFeatured": false
-        }
-      },
-      {
-        "id": 3,
-        "title": "Doesn't Hurt to Ask",
-        "author": "Trey Gowdy",
-        "time": "13-minute read",
-        "read": "1.9k reads",
-        "image": "http://127.0.0.1:8887/DoesntHurtToAsk.png",
-        "state": {
-          "isFinished": false,
-          "isTrending": false,
-          "justAdded": false,
-          "isFeatured": true
-        }
-      },
-      {
-        "id": 4,
-        "title": "The Fate of Food",
-        "author": "Amanda Little",
-        "time": "12-minute read",
-        "read": "16k reads",
-        "image": "http://127.0.0.1:8887/TheFateOfFood.png",
-        "state": {
-          "isFinished": false,
-          "isTrending": true,
-          "justAdded": false,
-          "isFeatured": false
-        }
-      },
-      {
-        "id": 5,
-        "title": "Lives of the Stoics",
-        "author": "Ryan Holiday, Stephen Hansel",
-        "time": "13-minute read",
-        "read": "",
-        "image": "http://127.0.0.1:8887/LivesOfTheStoics.png",
-        "state": {
-          "isFinished": false,
-          "isTrending": true,
-          "justAdded": false,
-          "isFeatured": false
-        }
-      },
-      {
-        "id": 6,
-        "title": "Loving Your Business",
-        "author": "Debbie King",
-        "time": "13-minute read",
-        "read": "",
-        "image": "http://127.0.0.1:8887/LovingYourBusiness.png",
-        "state": {
-          "isFinished": false,
-          "isTrending": true,
-          "justAdded": false,
-          "isFeatured": false
-        }
-      },
-      {
-        "id": 7,
-        "title": "The Lonely Century",
-        "author": "Noreena Hertz",
-        "time": "15-minute read",
-        "read": "",
-        "image": "http://127.0.0.1:8887/TheLonelyCentury.png",
-        "state": {
-          "isFinished": false,
-          "isTrending": false,
-          "justAdded": true,
-          "isFeatured": false
-        }
-      },
-      {
-        "id": 8,
-        "title": "Eat Better,Feel Better",
-        "author": "Giada De Laurentiis",
-        "time": "13-minute read",
-        "read": "1.9k reads",
-        "image": "http://127.0.0.1:8887/EatBettterFeelBetter.png",
-        "state": {
-          "isFinished": false,
-          "isTrending": false,
-          "justAdded": true,
-          "isFeatured": false
-        }
-      },
-      {
-        "id": 9,
-        "title": "Dropshipping",
-        "author": "James Moore",
-        "time": "12-minute read",
-        "read": "",
-        "image": "http://127.0.0.1:8887/DropShipping.png",
-        "state": {
-          "isFinished": false,
-          "isTrending": false,
-          "justAdded": true,
-          "isFeatured": false
-        }
-      }
-    ]
-  }
+  "library": [
+    {
+      "imag": "http://127.0.0.1:8887/BeingBoss.png",
+      "bookName": "Being Boss",
+      "author": "Kathleen Shannon and Emily...",
+      "time": " 13-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "",
+      "trending": "yes",
+      "justAdded": "no",
+      "featured": "no",
+      "added": "yes",
+      "id": 10,
+      "status": "Finished"
+    },
+    {
+      "imag": "http://127.0.0.1:8887/Beyond.png",
+      "bookName": "Beyond Entrepreneurship",
+      "author": "Jim Collins & Bill Lazier",
+      "time": " 15-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "",
+      "trending": "yes",
+      "justAdded": "no",
+      "status": "Finished",
+      "featured": "yes",
+      "added": "yes",
+      "id": 11
+    },
+    {
+      "imag": "http://127.0.0.1:8887/BringYourHumanToWork.png",
+      "bookName": "Bring Your Human to Work",
+      "author": "Erica Keswin",
+      "time": " 13-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "1.9k reads",
+      "status": "Finished",
+      "trending": "no",
+      "justAdded": "no",
+      "featured": "yes",
+      "added": "yes",
+      "id": 1
+    },
+    {
+      "imag": "http://127.0.0.1:8887/EmployeeToEntrepreneur.png",
+      "bookName": "Employee to Entrepreneur",
+      "author": "Steve Glaveski",
+      "time": " 15-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "",
+      "status": "Finished",
+      "trending": "yes",
+      "justAdded": "no",
+      "featured": "no",
+      "added": "no",
+      "id": 2
+    },
+    {
+      "imag": "http://127.0.0.1:8887/DoesntHurtToAsk.png",
+      "bookName": "Doesn’t Hurt to Ask",
+      "author": "Trey Gowdy",
+      "time": " 13-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "1.9k reads",
+      "status": "Finished",
+      "trending": "no",
+      "justAdded": "no",
+      "featured": "yes",
+      "added": "no",
+      "id": 3
+    },
+    {
+      "imag": "http://127.0.0.1:8887/TheFateOfFood.png",
+      "bookName": "The Fate of Food",
+      "author": "Amanda Little",
+      "time": " 12-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "16k reads",
+      "status": "Finished",
+      "trending": "yes",
+      "justAdded": "no",
+      "featured": "no",
+      "added": "no",
+      "id": 4,
+      "state": "Read Again"
+    },
+    {
+      "imag": "http://127.0.0.1:8887/LivesOfTheStoics.png",
+      "bookName": "Lives of the Stoics",
+      "author": "Ryan Holiday, Stephen Hansel",
+      "time": " 13-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "",
+      "status": "Finished",
+      "trending": "yes",
+      "justAdded": "no",
+      "featured": "no",
+      "added": "no",
+      "id": 5,
+      "state": "Read Again"
+    },
+    {
+      "imag": "http://127.0.0.1:8887/LovingYourBusiness.png",
+      "bookName": "Loving Your Business",
+      "author": "Debbie King",
+      "time": " 13-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "",
+      "status": "Finished",
+      "trending": "yes",
+      "justAdded": "no",
+      "featured": "no",
+      "added": "no",
+      "id": 6
+    },
+    {
+      "imag": "http://127.0.0.1:8887/TheLonelyCentury.png",
+      "bookName": "The Lonely Century",
+      "author": "Noreena Hertz",
+      "time": " 15-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "",
+      "status": "Finished",
+      "trending": "no",
+      "justAdded": "yes",
+      "featured": "no",
+      "added": "no",
+      "id": 7
+    },
+    {
+      "imag": "http://127.0.0.1:8887/EatBettterFeelBetter.png",
+      "bookName": "Eat Better, Feel Better",
+      "author": "Giada De Laurentiis",
+      "time": " 13-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "1.9k reads",
+      "status": "Finished",
+      "trending": "no",
+      "justAdded": "yes",
+      "featured": "no",
+      "added": "no",
+      "id": 8
+    },
+    {
+      "imag": "http://127.0.0.1:8887/DropShipping.png",
+      "bookName": "Dropshipping",
+      "author": "James Moore",
+      "time": " 12-minute read",
+      "user": "http://127.0.0.1:8887/user.svg",
+      "count": "",
+      "status": "Finished",
+      "trending": "no",
+      "justAdded": "yes",
+      "featured": "no",
+      "added": "no",
+      "id": 9
+    }
+  ],
+  "icons": [
+    {
+      "path": "http://127.0.0.1:8887/entreprenuer.svg",
+      "name": "Entrepreneurship"
+    },
+    {
+      "path": "http://127.0.0.1:8887/politics.svg",
+      "name": "Politics"
+    },
+    {
+      "path": "http://127.0.0.1:8887/marketing.svg",
+      "name": "Marketing & Sales"
+    },
+    {
+      "path": "http://127.0.0.1:8887/science.svg",
+      "name": "Science"
+    },
+    {
+      "path": "http://127.0.0.1:8887/health.svg",
+      "name": "Health & Nutrition"
+    },
+    {
+      "path": "http://127.0.0.1:8887/personal.svg",
+      "name": "Personal Development"
+    },
+    {
+      "path": "http://127.0.0.1:8887/economics.svg",
+      "name": "Economics"
+    },
+    {
+      "path": "http://127.0.0.1:8887/history.svg",
+      "name": "History"
+    },
+    {
+      "path": "http://127.0.0.1:8887/communication.svg",
+      "name": "Communication Skills"
+    },
+    {
+      "path": "http://127.0.0.1:8887/corporate.svg",
+      "name": "Corporate Culture"
+    },
+    {
+      "path": "http://127.0.0.1:8887/motivation.svg",
+      "name": "Motivation & Inspiration"
+    },
+    {
+      "path": "http://127.0.0.1:8887/money.svg",
+      "name": "Money & Investments"
+    },
+    {
+      "path": "http://127.0.0.1:8887/psychology.svg",
+      "name": "Psychology"
+    },
+    {
+      "path": "http://127.0.0.1:8887/productivity.svg",
+      "name": "Productivity"
+    },
+    {
+      "path": "http://127.0.0.1:8887/relationship.svg",
+      "name": "Sex & Relationship"
+    },
+    {
+      "path": "http://127.0.0.1:8887/nature.svg",
+      "name": "Nature & Environment"
+    },
+    {
+      "path": "http://127.0.0.1:8887/career.svg",
+      "name": "Career & Success"
+    },
+    {
+      "path": "http://127.0.0.1:8887/education.svg",
+      "name": "Education"
+    }
+  ]
+}

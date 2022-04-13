@@ -51,9 +51,10 @@ const Banner = () => {
               bgcolor="#F1F6F4"
               color="white"
               height={264}
-              width={912}
+              width={860}
               position="absolute"
               marginLeft="23%"
+              marginBottom="12%"
         
             >
             <Container maxWidth="lg">
@@ -85,7 +86,6 @@ const Banner = () => {
             </Container>
         </Box>
 
-        {/* <Logos image={BannerImage}/> */}
     </div>
   )
 }

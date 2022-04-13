@@ -5,7 +5,7 @@ import Blinklist from '../../../images/Blinklist.svg'
 //import {Typog} from '../../atoms/Typography/Typog'
 import { fontFamily } from '@mui/system'
 
-function Footer() {
+const Footer = () => {
   return (
     <footer>
         <Box bgcolor="#F1F6F4">
