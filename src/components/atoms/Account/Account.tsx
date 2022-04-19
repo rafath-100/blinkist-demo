@@ -13,7 +13,6 @@ const Account= () => {
       >
         A
       </Avatar>
-      {/* <Avatar src="/broken-image.jpg" /> */}
     </Stack>
   );
 }

@@ -18,6 +18,7 @@ interface IGridProps extends GridProps{
 
 const Explore = ({...props}:IGridProps)=> {
   const [exploreData,setExploreData]=useState([]);
+  const [modify, setModify]=useState<boolean>(false);
 
   useEffect(()=>{
       fetch('http://localhost:4005/icons')
@@ -63,14 +64,14 @@ const Explore = ({...props}:IGridProps)=> {
       }
     ]
     return (
-      <CommonTabs 
+      <CommonTabs
         child1={tabValues.map((tabValue)=>
         (
-          <Tab sx={{width:350}} value={tabValue.value} label={tabValue.label}/>
+          <Tab sx={{width:350, marginLeft:10}} value={tabValue.value} label={tabValue.label}/>
         ))} 
         child2={tabValues.map((tabValue)=>
         (
-          <TabPanel sx={{"marginLeft":15}} value={tabValue.value}>{tabValue.panelData}</TabPanel>
+          <TabPanel sx={{"marginLeft":25}} value={tabValue.value}>{tabValue.panelData}</TabPanel>
         ))} margin={20}> 
        </CommonTabs>
     );

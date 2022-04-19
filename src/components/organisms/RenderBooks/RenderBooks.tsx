@@ -9,11 +9,13 @@ interface Props{
     justAdded:string;
     featured:string;
     bookLabel:string;
+
 }
 
 const RenderBooks=(props:Props)=>{
     var label = props.bookLabel ;
     const[repo,setRepo]=useState<any[]>([]);
+    const [modify, setModify]=useState<boolean>(false);
 
     const getRepo=()=>{
         axios.get('http://localhost:4005/library')
@@ -24,35 +26,35 @@ const RenderBooks=(props:Props)=>{
                 setRepo(myRepo)
         });
     };
-    useEffect(()=>getRepo(),[repo])
+    useEffect(()=>getRepo(),[modify])
     return(
         <Grid container spacing={2} wrap="wrap">
         {repo.map(repos => {
             if(props.status === repos.status){ 
                 return ( 
                     <Grid item xs={12} sm={8} md={4} >
-                    <BookCard bookLabel = {label} key={repos.id} id={repos.id} imag={repos.imag} bookName={repos.bookName} author={repos.author} time={repos.time} user={repos.user} count={repos.count} status={repos.status} added={repos.added} />
+                    <BookCard modify={setModify} bookLabel = {label} key={repos.id} id={repos.id} imag={repos.imag} bookName={repos.bookName} author={repos.author} time={repos.time} user={repos.user} count={repos.count} status={repos.status} added={repos.added} />
                     </Grid>
                 )
             }
             else if(props.trending === repos.trending){ 
                 return ( 
                     <Grid item xs={12} sm={8} md={4} >
-                    <BookCard bookLabel = {label} key={repos.id} id={repos.id} imag={repos.imag} bookName={repos.bookName} author={repos.author} time={repos.time} user={repos.user} count={repos.count} status={repos.status} added={repos.added}/>
+                    <BookCard modify={setModify} bookLabel = {label} key={repos.id} id={repos.id} imag={repos.imag} bookName={repos.bookName} author={repos.author} time={repos.time} user={repos.user} count={repos.count} status={repos.status} added={repos.added}/>
                     </Grid>
                 )
             }
             else if(props.justAdded === repos.justAdded){ 
                 return ( 
                     <Grid item xs={12} sm={8} md={4} >
-                    <BookCard bookLabel = {label} key={repos.id} id={repos.id} imag={repos.imag} bookName={repos.bookName} author={repos.author} time={repos.time} user={repos.user} count={repos.count} status={repos.status} added={repos.added}/>
+                    <BookCard modify={setModify} bookLabel = {label} key={repos.id} id={repos.id} imag={repos.imag} bookName={repos.bookName} author={repos.author} time={repos.time} user={repos.user} count={repos.count} status={repos.status} added={repos.added}/>
                     </Grid>
                 )
             }
             else if(props.featured === repos.featured){ 
                 return ( 
                     <Grid item xs={12} sm={8} md={4} >
-                    <BookCard bookLabel = {label} key={repos.id} id={repos.id} imag={repos.imag} bookName={repos.bookName} author={repos.author} time={repos.time} user={repos.user} count={repos.count} status={repos.status} added={repos.added}/>
+                    <BookCard modify={setModify} bookLabel = {label} key={repos.id} id={repos.id} imag={repos.imag} bookName={repos.bookName} author={repos.author} time={repos.time} user={repos.user} count={repos.count} status={repos.status} added={repos.added}/>
                     </Grid>
                 )
             }

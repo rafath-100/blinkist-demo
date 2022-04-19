@@ -40,8 +40,10 @@ const Appbar=()=> {
           <Toolbar>
             
             <Grid container spacing={3} style={{marginLeft:"20.32%"}}>
-              <Grid item xs={1} style={{flexDirection:"column"}}>
-                <Logos image={Blinklist} />
+              <Grid item xs={1} style={{flexDirection:"column"}} >
+                <Button href="/">
+                  <Logos image={Blinklist} />
+                </Button>
                 
               </Grid>
               <Grid item xs={1} style={{marginLeft:"70px"}}>
@@ -50,7 +52,7 @@ const Appbar=()=> {
 
               
           
-              <ButtonComponent variant="text" size="large" onClick={handleOpen} style={{color:"#03314B"}}>Explore<KeyboardArrowDown /></ButtonComponent>
+              <ButtonComponent variant="text" size="large" onClick={handleOpen} style={{color:"#03314B", fontSize:"20px", fontWeight:"500", lineHeight:"20px", fontFamily:"Cera Pro", fontStyle:"normal"}}>Explore<KeyboardArrowDown /></ButtonComponent>
                 <Modal
                     open={open}
                     onClose={handleClose}
@@ -64,10 +66,10 @@ const Appbar=()=> {
 
 
               <Grid item sm={2} style={{marginLeft:"40px", color:"#03314B", width:"78px", height:"10px"}}>
-                <Link underline="none" style={{color:"#03314B", fontSize:"20px"}} href="/" sx={{"marginLeft":2,"marginRight":2}}>My Library</Link>
+                <Link underline="none" style={{color:"#03314B", fontSize:"20px", fontWeight:"500", lineHeight:"20px", fontFamily:"Cera Pro", fontStyle:"normal"}} href="/" sx={{"marginLeft":2,"marginRight":2}}>My Library</Link>
               </Grid>
 
-              <Grid item sm={1} style={{display:"flex", marginLeft:"12.8%"}}>
+              <Grid item sm={1} style={{display:"flex", marginLeft:"11.8%"}}>
                 <Account/>
                 <Logos image={Drop}/>
 

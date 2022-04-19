@@ -23,6 +23,7 @@ export interface Props{
   status:string;
   bookLabel:string;
   added:string;
+  modify?: Function;
 
 }
 
@@ -63,7 +64,7 @@ const useStyles = makeStyles({
 })
 
 const BookCard =({...props}:Props)=>{ 
-  const style=useStyles();
+  //const style=useStyles();
   var index = props.id ;
   var bookState = props.status;
   var label=props.bookLabel;
@@ -94,20 +95,22 @@ const BookCard =({...props}:Props)=>{
       },
     }).then((response) => response.json())
     .then((json) => console.log(json));
+    props.modify && props.modify(true);
   }
 
   return (
     <div>
     <>
-      <Card sx={{ maxWidth: 345, height: 385 }}>
+      <Card sx={{ maxWidth: 345, height: 440 ,marginLeft:"-5px"}}>
+      <Link to="/library" state={{id:index}} onClick={handleClick} style={{textDecoration:"none", color:"#0365F2", marginLeft:"26%", fontSize:"16px"}}>
         <CardMedia
           component="img"
-          height="200"
+          height="260px"
           image={props.imag}
           alt="not found" 
-          sx={{width:"100%"}}/>
+          sx={{width:"100%", marginTop:"-19.5px"}}/>
           
-      <Link to="/library" state={{id:index}} onClick={handleClick} style={{textDecoration:"none", color:"#0365F2", marginLeft:"26%", fontSize:"16px"}}>
+      
         <CardContent >
           <Typog children={props.bookName} variant="subtitle1" color="#03314B" />
           <Typog children={props.author} variant="body1" color="#6D787E" />
@@ -143,6 +146,7 @@ const BookCard =({...props}:Props)=>{
                       
                       <MoreHorizIcon style={{color:"#000000"}}/>  
                   </Button> 
+                  
                           :(
                   <Button fullWidth={true} sx={{":hover":{bgcolor:"#0365F2",color:"#ffffff"},"margin":0}} onClick={handleClick}> 
                     {label} 
@@ -152,7 +156,8 @@ const BookCard =({...props}:Props)=>{
 
       </Card><Box
           sx={{
-            width: 95,
+            width: 90,
+            marginLeft:"-5px",
             height: 15,
             position: "absolute",
             backgroundColor: '#E1ECFC',

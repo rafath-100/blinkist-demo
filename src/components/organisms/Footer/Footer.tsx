@@ -1,9 +1,7 @@
 import React from 'react'
-import {Container, Grid, Box, Typography} from '@mui/material'
+import {Container, Grid, Box, Typography, Button} from '@mui/material'
 import Logos from '../../atoms/Logos/Logos'
 import Blinklist from '../../../images/Blinklist.svg'
-//import {Typog} from '../../atoms/Typography/Typog'
-import { fontFamily } from '@mui/system'
 
 const Footer = () => {
   return (
@@ -15,7 +13,10 @@ const Footer = () => {
                     <Grid item xs={12} sm={4.5}>
                         <Box style={{color:"#03314B"}}></Box>
                             <Box>
-                                <Logos image={Blinklist}/>
+                                <Button href="/">
+                                    <Logos image={Blinklist} />
+                                </Button>
+                                {/* <Logos image={Blinklist}/> */}
                             </Box><br />
                             <Box>
                                 <Typography gutterBottom variant='h5' color="#0365F2" fontFamily="Cera Pro" fontStyle="normal" fontSize="24px" fontWeight={500}

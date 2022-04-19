@@ -10,9 +10,9 @@
       "trending": "yes",
       "justAdded": "no",
       "featured": "no",
-      "added": "yes",
+      "added": "no",
       "id": 10,
-      "status": "Finished"
+      "status": "a"
     },
     {
       "imag": "http://127.0.0.1:8887/Beyond.png",
@@ -23,7 +23,7 @@
       "count": "",
       "trending": "yes",
       "justAdded": "no",
-      "status": "Finished",
+      "status": "a",
       "featured": "yes",
       "added": "yes",
       "id": 11
@@ -39,7 +39,7 @@
       "trending": "no",
       "justAdded": "no",
       "featured": "yes",
-      "added": "yes",
+      "added": "no",
       "id": 1
     },
     {
@@ -53,7 +53,7 @@
       "trending": "yes",
       "justAdded": "no",
       "featured": "no",
-      "added": "no",
+      "added": "yes",
       "id": 2
     },
     {
@@ -96,7 +96,7 @@
       "trending": "yes",
       "justAdded": "no",
       "featured": "no",
-      "added": "no",
+      "added": "yes",
       "id": 5,
       "state": "Read Again"
     },

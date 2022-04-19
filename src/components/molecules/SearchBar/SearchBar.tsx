@@ -95,7 +95,7 @@ const SearchBar=()=>{
               if((book.author).toLowerCase().includes(searchValue.toLowerCase())){
                 return(
                 
-                  <Grid container spacing={2} wrap="wrap" sx={{marginLeft:"23%", marginBottom:"5%"}}>
+                  <Grid container spacing={2} wrap="wrap" sx={{marginLeft:"23%",marginTop:"4%", marginBottom:"3%"}}>
                         
                           <BookCard key={book.id} id={book.id} imag={book.imag} bookName={book.bookName} author={book.author} time={book.time} user={book.user} count={book.count} status={book.status} added={book.added} bookLabel={book.bookLabel}/>
                         

@@ -11,18 +11,16 @@ import {makeStyles} from '@mui/styles'
 
 const useStyles = makeStyles({
   heading:{
-    position: "static",
-    width: "274px",
-    height:"30px",
-    top: "0px",
-    bottom: "80%",
-    color: "#03314B",
+    // position: "static",
+    // width: "274px",
+    // height:"30px",
+    // bottom: "80%",
+    // color: "#03314B",
     fontFamily:"Cera Pro",
     fontSize:"24px",
     fontWeight:"700",
     lineHeight:"30px",
-    fontStyle:"normal",
-    margin:"30px 0px",
+    fontStyle:"normal"
     
     
   }
@@ -50,14 +48,14 @@ const EntrepreneurPage= () =>  {
           <RenderBooks  bookLabel="+ Add to Library" status='' trending='yes' justAdded='' featured=''/>
         </Box>
       
-        <Box style={{marginTop:"80px"}}>
+        <Box style={{marginTop:"70px"}}>
         <Typog children="Just added" variant="h5" color="#03314B" className={style.heading} />
         <Link href="/library" underline="none">
           <RenderBooks  bookLabel="+ Add to Library" status=''trending="" justAdded="yes" featured=""/>
           </Link>
         </Box>
       
-        <Box style={{marginTop:"80px"}}>
+        <Box style={{marginTop:"70px"}}>
         <Typog children="Featured audio blinks" variant="h5" color="#03314B" className={style.heading}/>
           <RenderBooks  bookLabel="+ Add to Library" status='' trending="" justAdded="" featured="yes"/> 
           
