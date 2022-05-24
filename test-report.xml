@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/organisms/Footer/Footer.test.tsx">
+    <testCase name="Footer logo should be display" duration="403"/>
+  </file>
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/molecules/Banner/Banner.test.tsx">
+    <testCase name="Banner Banner" duration="223"/>
+  </file>
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/molecules/CommonTab/CommmonTab.test.tsx">
+    <testCase name="CommonTabs CommonTabs" duration="153"/>
+  </file>
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/molecules/Explore/Explore.test.tsx">
+    <testCase name="Explore Explore" duration="455"/>
+  </file>
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/atoms/Account/Account.test.tsx">
+    <testCase name="Should display Avatar Avatar logo" duration="45"/>
+  </file>
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/atoms/Typography/Typog.test.tsx">
+    <testCase name="Display text Should be heading" duration="25"/>
+    <testCase name="Display text Should be body" duration="13"/>
+    <testCase name="Display text Should be subtitle" duration="12"/>
+    <testCase name="Display text Should be caption" duration="14"/>
+  </file>
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/atoms/Logos/Logos.test.tsx">
+    <testCase name="Icon Button Render Search Button" duration="18"/>
+    <testCase name="Icon Button Render dropdown" duration="8"/>
+  </file>
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/organisms/Tabs/Tabs.test.tsx">
+    <testCase name="Lab tab test should toggle between the tabs" duration="416"/>
+  </file>
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/organisms/Appbar/Appbar.test.tsx">
+    <testCase name="Appbar tests before login should login" duration="361"/>
+  </file>
+  <file path="/home/rafatam/Desktop/zemoso/React/blinkist-final/src/components/templates/BookDetail/index.test.tsx">
+    <testCase name="Book Detail test Should render" duration="672"/>
+  </file>
+</testExecutions>

@@ -1,0 +1,7 @@
+organization=rafath-100
+projectKey=rafath-100_blinkist-demo
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.29242
+dashboardUrl=https://sonarcloud.io/dashboard?id=rafath-100_blinkist-demo
+ceTaskId=AYD2bA1LrTjoJJb1DhOM
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYD2bA1LrTjoJJb1DhOM
